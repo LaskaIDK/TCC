@@ -99,16 +99,17 @@
 
         <div class="area-post">
 
-            <input
-                type="text"
-                placeholder="Qual é sua sugestão?"
-            >
+    <input
+        type="text"
+        id="sugestaoInput"
+        placeholder="Qual é sua sugestão?"
+    >
 
-            <div class="footer-post">
-                <button>Publicar</button>
-            </div>
+    <div class="footer-post">
+        <button onclick="publicarSugestao()">Publicar</button>
+    </div>
 
-        </div>
+</div>
 
     </div>
 
@@ -136,7 +137,9 @@
             </p>
         </div>
     </div>
+    <div id="listaSugestoes"></div>
 </main>
+
 
 <aside class="right-bar">
 
@@ -151,9 +154,38 @@
 
     </div>
 
-    <p>© 2026 X Corp.</p>
+    <p>© 2026 Camargo aranha.</p>
 
 </aside>
+<script>
+function publicarSugestao() {
+
+    const input = document.getElementById("sugestaoInput");
+    const texto = input.value.trim();
+
+    if (texto === "") {
+        alert("Digite uma sugestão!");
+        return;
+    }
+
+    const post = document.createElement("div");
+    post.classList.add("post");
+
+    post.innerHTML = `
+        <div class="avatar-post"></div>
+        <div class="conteudo-post">
+            <h4>Nome do Usuário</h4>
+            <span>@usuario · agora</span>
+            <p>${texto}</p>
+        </div>
+    `;
+
+    document.getElementById("listaSugestoes").prepend(post);
+
+    input.value = "";
+}
+</script>
+
 </body>
 
 </html>
