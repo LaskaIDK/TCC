@@ -1,0 +1,158 @@
+@font-face {
+    font-family: font1;
+    src: url(fonts/Chirp-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    height: 180vh;
+    display:flex;
+}
+
+nav.menu1 {
+    width: 350px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 1 10px 1.5%;
+    box-shadow: 1px 0 0 #918e8e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 1s;
+
+}
+
+
+ul {
+    height: 100%;
+
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: -5px;
+    line-height: 40px;
+    font-family: 'font1';
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+i {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+li a:hover{
+    color: red;
+    transition: 0.5;
+}
+.linktexto {
+    margin-right: -50px;
+    font-family: font1;
+    margin-left: 25px;
+}
+
+.sugestao {
+    width: 300px;
+    height: 62px;
+    border-radius: 80px;
+    background-color: #DC2626;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'font1';
+    letter-spacing: 0.5px;
+    border: none;
+    display: inline;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.linkbutao {
+    color: white;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: -9px;
+}
+.sugestao:hover
+{
+    width: 310px;
+    height: 68px;
+    transition: 0.2s;
+    background-color: rgb(199, 49, 49);
+}
+.perfil{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    width: 300px;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+    border-radius: 40px;
+
+    cursor: pointer;
+}
+
+.perfil:hover{
+    background-color: #f2f2f2;
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #cfd4dc;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 12px;
+}
+
+.nome{
+    font-family: font1;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+.usuario{
+    font-family: font1;
+    font-size: 14px;
+    color: #536471;
+}
+
+.perfil i{
+    font-size: 18px;
+    color: #000;
+}
+.perfil i:hover{
+    color: red;
+    transition: 0.5;
+}
+nav.menu1{
+    position: fixed;
+}
+
+.menu1{
+    width:280px;
+}

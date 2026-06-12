@@ -12,6 +12,7 @@
 
 body {
     height: 180vh;
+    display:flex;
 }
 
 nav.menu1 {
@@ -52,6 +53,10 @@ i {
     font-size: 30px;
 }
 
+li a:hover{
+    color: red;
+    transition: 0.5;
+}
 .linktexto {
     margin-right: -50px;
     font-family: font1;
@@ -68,10 +73,286 @@ i {
     font-family: 'font1';
     letter-spacing: 0.5px;
     border: none;
-  
+    display: inline;
+    align-items: center;
+    margin-left: 25px;
 }
 
 .linkbutao {
     color: white;
     margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: -9px;
+}
+.sugestao:hover
+{
+    width: 310px;
+    height: 68px;
+    transition: 0.2s;
+    background-color: rgb(199, 49, 49);
+}
+.perfil{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    width: 300px;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+    border-radius: 40px;
+
+    cursor: pointer;
+}
+
+.perfil:hover{
+    background-color: #f2f2f2;
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #cfd4dc;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 12px;
+}
+
+.nome{
+    font-family: font1;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+.usuario{
+    font-family: font1;
+    font-size: 14px;
+    color: #536471;
+}
+
+.perfil i{
+    font-size: 18px;
+    color: #000;
+}
+.perfil i:hover{
+    color: red;
+    transition: 0.5;
+}
+nav.menu1{
+    position: fixed;
+}
+
+.menu1{
+    width:280px;
+}
+
+.feed{
+    position: absolute;
+    left: 350px; /*largura da barra fudida da esquerda*/
+
+    width: 850px;
+    min-height: 100vh;
+
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+
+    background: #fff;
+}
+
+
+
+.top-feed{
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 25px;
+
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.top-feed h2{
+    font-family: font1;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+
+.criar-post{
+    display: flex;
+
+    padding: 20px 25px;
+
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.avatar-post{
+    width: 55px;
+    height: 55px;
+
+    border-radius: 50%;
+
+    background: #d8d8d8;
+
+    flex-shrink: 0;
+}
+
+.area-post{
+    flex: 1;
+    margin-left: 15px;
+}
+
+.area-post input{
+    width: 100%;
+
+    border: none;
+    outline: none;
+
+    font-size: 22px;
+
+    padding: 12px 0;
+}
+
+.area-post input::placeholder{
+    color: #777;
+}
+
+.footer-post{
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: 20px;
+}
+
+.footer-post button{
+    width: 130px;
+    height: 42px;
+
+    border: none;
+    border-radius: 30px;
+
+    background: #DC2626;
+    color: white;
+
+    font-family: font1;
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+.footer-post button:hover{
+    background: #c91f1f;
+}
+
+
+
+.post{
+    display: flex;
+
+    padding: 20px 25px;
+
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.conteudo-post{
+    margin-left: 15px;
+}
+
+.conteudo-post h4{
+    font-family: font1;
+    font-size: 16px;
+}
+
+.conteudo-post span{
+    color: #666;
+    font-size: 14px;
+}
+
+.conteudo-post p{
+    margin-top: 10px;
+
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.right-bar{
+    position: absolute;
+
+    left: 1200px;
+    top: 0;
+
+    width: 650px;
+    min-height: 100vh;
+
+    padding: 35px;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+.links a{
+    color: #666;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    padding: 0;
+    margin: 0;
+
+    font-family: font1;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+.right-bar p{
+    margin-top: 20px;
+
+    color: #666;
+
+    font-size: 14px;
+
+    font-family: font1;
+}
+.circulo-vermelho{
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    background: #DC2626;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+    margin-right: 12px;
+
+    cursor: pointer;
+}
+
+.circulo-vermelho i{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
 }
