@@ -9,12 +9,6 @@ Trabalho de conclusão de curso por Bruna, Julia, David e Alexandre
 - portas sem trancas
 - papéis na privada
 - dificuldades com professores (relacionados a tarefas, lições, faltas e etc)
-
--Linguagens a serem utilizadas:
--php com laravel
--react native
--mysql.
-
 -Imagem do primeiro protótipo já upada com as instruções sobre o software.
 
 
