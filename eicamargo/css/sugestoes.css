@@ -164,8 +164,8 @@ nav.menu1{
     width: 850px;
     min-height: 100vh;
 
-    border-left: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
+    border-left: 1px solid #536471;
+    border-right: 1px solid #536471;
 
     background: #fff;
 }
@@ -180,7 +180,7 @@ nav.menu1{
 
     padding-left: 25px;
 
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid #536471;
 }
 
 .top-feed h2{
@@ -196,7 +196,7 @@ nav.menu1{
 
     padding: 20px 25px;
 
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid #536471;
 }
 
 .avatar-post{
@@ -264,7 +264,7 @@ nav.menu1{
 
     padding: 20px 25px;
 
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid #536471;
 }
 
 .conteudo-post{
