@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../css/img/faixadacamargo.jpg");
+    background-image: url('../css/img/cu.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body{
     backdrop-filter: blur(10px);
     border-radius: 50px;
     overflow: hidden;
-
+     box-shadow: 50px black;
     box-shadow: 0 20px 40px rgba(0,0,0,0.25);
 }
 
@@ -40,10 +40,10 @@ body{
 
     background: linear-gradient(
         180deg,
-        #8b0000,
-        #c1121f
+        #680505,
+        #920e17
     );
-
+   
     color: white;
 
     display: flex;
@@ -93,13 +93,14 @@ body{
     justify-content: center;
     align-items: center;
     box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-    
+    background-color: #f8f5f5;;
     padding: 40px;
 }
 
 .cartao-login{
     width: 100%;
     max-width: 350px;
+    
 }
 
 .cartao-login h2{

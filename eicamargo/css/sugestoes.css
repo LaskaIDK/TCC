@@ -177,6 +177,7 @@ nav.menu1{
 
     display: flex;
     align-items: center;
+    
 
     padding-left: 25px;
 
@@ -187,6 +188,8 @@ nav.menu1{
     font-family: font1;
     font-size: 24px;
     font-weight: 700;
+    margin-left: 330px;
+    
 }
 
 
@@ -355,4 +358,23 @@ nav.menu1{
     color: white;
     font-size: 22px;
     font-weight: bold;
+}
+.eicamargologo
+{
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: auto;
+}
+.circulo-vermelho label{
+    cursor:pointer;
+    color:white;
+}
+
+#preview-imagem{
+    display:none;
+    max-width:300px;
+    margin-top:15px;
+    border-radius:12px;
 }

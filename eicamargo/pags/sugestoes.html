@@ -8,7 +8,7 @@
     <title>Eicamargo</title>
     <link rel="stylesheet" type="text/css" href="../css/sugestoes.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="icon" type="image/icon" href="css/img/chroniclesofthepastlogo.png">
+     <link rel="icon" type="image/icon" href="../css/img/logoeicamargo.png">
     <meta name="author" content="Alexandre Castello, David Melquiades, Bruna de Mello e Julia Akemi">
 </head>
 
@@ -95,8 +95,17 @@
     <div class="criar-post">
 
         <div class="circulo-vermelho">
-        <i class="bi bi-plus-lg"></i>
-    </div>
+           <label for="upload-imagem">
+           <i class="bi bi-plus-lg"></i>
+         </label>
+
+            <input
+            type="file"
+            id="upload-imagem"
+            accept="image/*"
+            hidden
+            >
+        </div>
 
         <div class="area-post">
 
@@ -105,7 +114,7 @@
         id="sugestaoInput"
         placeholder="Qual é sua sugestão?"
     >
-
+            <img id="preview-imagem">
     <div class="footer-post">
         <button onclick="publicarSugestao()">Publicar</button>
     </div>
@@ -142,7 +151,7 @@
 </main>
 
 
-<aside class="right-bar">
+<div class="right-bar">
 
     <div class="links">
 
@@ -152,14 +161,17 @@
         <a href="#">Acessibilidade</a>
         <a href="#">Informações de Anúncios</a>
         <a href="#">Mais</a>
+        
 
     </div>
 
     <p>© 2026 Camargo aranha.</p>
+    <img class="eicamargologo" src="../css/img/logoeicamargo.png">
 
-</aside>
+</div>
 <!--PARTE DA JULIA QUE COLOCAMOS EM UM ARQUIVO JS SEPARADO -->
 <script src="../js/postadd.js"></script>
+<script src="../js/addimagem.js"></script>
 
 </body>
 
