@@ -1,0 +1,65 @@
+font-face {
+    font-family: font1;
+    src: url(fonts/Chirp-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    height: 180vh;
+    display:flex;
+}
+
+nav.menu1 {
+    width: 350px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 1 10px 1.5%;
+    box-shadow: 1px 0 0 #918e8e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 1s;
+
+}
+
+
+ul {
+    height: 100%;
+
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: -5px;
+    line-height: 40px;
+    font-family: 'font1';
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+i {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+li a:hover{
+    color: red;
+    transition: 0.5;
+}
+.linktexto {
+    margin-right: -50px;
+    font-family: font1;
+    margin-left: 25px;
+}
+
