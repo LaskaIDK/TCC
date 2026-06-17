@@ -12,7 +12,7 @@
 
 body {
     height: 180vh;
-    display:flex;
+    display: flex;
 }
 
 nav.menu1 {
@@ -53,10 +53,11 @@ i {
     font-size: 30px;
 }
 
-li a:hover{
+li a:hover {
     color: red;
     transition: 0.5;
 }
+
 .linktexto {
     margin-right: -50px;
     font-family: font1;
@@ -85,14 +86,15 @@ li a:hover{
     justify-content: center;
     margin-top: -9px;
 }
-.sugestao:hover
-{
+
+.sugestao:hover {
     width: 310px;
     height: 68px;
     transition: 0.2s;
     background-color: rgb(199, 49, 49);
 }
-.perfil{
+
+.perfil {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -110,56 +112,59 @@ li a:hover{
     cursor: pointer;
 }
 
-.perfil:hover{
+.perfil:hover {
     background-color: #f2f2f2;
 }
 
-.avatar{
+.avatar {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: #cfd4dc;
 }
 
-.dados{
+.dados {
     display: flex;
     flex-direction: column;
     flex: 1;
     margin-left: 12px;
 }
 
-.nome{
+.nome {
     font-family: font1;
     font-size: 15px;
     font-weight: bold;
     color: #000;
 }
 
-.usuario{
+.usuario {
     font-family: font1;
     font-size: 14px;
     color: #536471;
 }
 
-.perfil i{
+.perfil i {
     font-size: 18px;
     color: #000;
 }
-.perfil i:hover{
+
+.perfil i:hover {
     color: red;
     transition: 0.5;
 }
-nav.menu1{
+
+nav.menu1 {
     position: fixed;
 }
 
-.menu1{
-    width:280px;
+.menu1 {
+    width: 280px;
 }
 
-.feed{
+.feed {
     position: absolute;
-    left: 350px; /*largura da barra fudida da esquerda*/
+    left: 350px;
+    /*largura da barra fudida da esquerda*/
 
     width: 850px;
     min-height: 100vh;
@@ -172,29 +177,29 @@ nav.menu1{
 
 
 
-.top-feed{
+.top-feed {
     height: 70px;
 
     display: flex;
     align-items: center;
-    
+
 
     padding-left: 25px;
 
     border-bottom: 1px solid #536471;
 }
 
-.top-feed h2{
+.top-feed h2 {
     font-family: font1;
     font-size: 24px;
     font-weight: 700;
     margin-left: 330px;
-    
+
 }
 
 
 
-.criar-post{
+.criar-post {
     display: flex;
 
     padding: 20px 25px;
@@ -202,7 +207,7 @@ nav.menu1{
     border-bottom: 1px solid #536471;
 }
 
-.avatar-post{
+.avatar-post {
     width: 55px;
     height: 55px;
 
@@ -213,12 +218,12 @@ nav.menu1{
     flex-shrink: 0;
 }
 
-.area-post{
+.area-post {
     flex: 1;
     margin-left: 15px;
 }
 
-.area-post input{
+.area-post input {
     width: 100%;
 
     border: none;
@@ -229,18 +234,18 @@ nav.menu1{
     padding: 12px 0;
 }
 
-.area-post input::placeholder{
+.area-post input::placeholder {
     color: #777;
 }
 
-.footer-post{
+.footer-post {
     display: flex;
     justify-content: flex-end;
 
     margin-top: 20px;
 }
 
-.footer-post button{
+.footer-post button {
     width: 130px;
     height: 42px;
 
@@ -256,13 +261,13 @@ nav.menu1{
     cursor: pointer;
 }
 
-.footer-post button:hover{
+.footer-post button:hover {
     background: #c91f1f;
 }
 
 
 
-.post{
+.post {
     display: flex;
 
     padding: 20px 25px;
@@ -270,28 +275,28 @@ nav.menu1{
     border-bottom: 1px solid #536471;
 }
 
-.conteudo-post{
+.conteudo-post {
     margin-left: 15px;
 }
 
-.conteudo-post h4{
+.conteudo-post h4 {
     font-family: font1;
     font-size: 16px;
 }
 
-.conteudo-post span{
+.conteudo-post span {
     color: #666;
     font-size: 14px;
 }
 
-.conteudo-post p{
+.conteudo-post p {
     margin-top: 10px;
 
     font-size: 15px;
     line-height: 1.6;
 }
 
-.right-bar{
+.right-bar {
     position: absolute;
 
     left: 1200px;
@@ -303,14 +308,14 @@ nav.menu1{
     padding: 35px;
 }
 
-.links{
+.links {
     display: flex;
     flex-wrap: wrap;
 
     gap: 12px;
 }
 
-.links a{
+.links a {
     color: #666;
 
     text-decoration: none;
@@ -323,11 +328,11 @@ nav.menu1{
     font-family: font1;
 }
 
-.links a:hover{
+.links a:hover {
     text-decoration: underline;
 }
 
-.right-bar p{
+.right-bar p {
     margin-top: 20px;
 
     color: #666;
@@ -336,7 +341,8 @@ nav.menu1{
 
     font-family: font1;
 }
-.circulo-vermelho{
+
+.circulo-vermelho {
     width: 45px;
     height: 45px;
 
@@ -354,27 +360,28 @@ nav.menu1{
     cursor: pointer;
 }
 
-.circulo-vermelho i{
+.circulo-vermelho i {
     color: white;
     font-size: 22px;
     font-weight: bold;
 }
-.eicamargologo
-{
+
+.eicamargologo {
     width: 100px;
     position: fixed;
     bottom: 20px;
     right: 20px;
     height: auto;
 }
-.circulo-vermelho label{
-    cursor:pointer;
-    color:white;
+
+.circulo-vermelho label {
+    cursor: pointer;
+    color: white;
 }
 
-#preview-imagem{
-    display:none;
-    max-width:300px;
-    margin-top:15px;
-    border-radius:12px;
+#preview-imagem {
+    display: none;
+    max-width: 300px;
+    margin-top: 15px;
+    border-radius: 12px;
 }

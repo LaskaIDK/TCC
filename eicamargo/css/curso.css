@@ -29,7 +29,6 @@ nav.menu1 {
 
 }
 
-
 ul {
     height: 100%;
 
@@ -47,7 +46,6 @@ a {
     margin-left: 20px;
 }
 
-
 i {
     color: rgb(0, 0, 0);
     font-size: 30px;
@@ -63,7 +61,6 @@ li a:hover {
     font-family: font1;
     margin-left: 25px;
 }
-
 
 .linkbutao {
     color: white;
@@ -143,10 +140,14 @@ nav.menu1 {
 .feed {
     position: absolute;
     left: 350px;
+    /*largura da barra fudida da esquerda*/
+
     width: 850px;
     min-height: 100vh;
+
     border-left: 1px solid #536471;
     border-right: 1px solid #536471;
+
     background: #fff;
 }
 
@@ -154,7 +155,7 @@ nav.menu1 {
     height: 70px;
     display: flex;
     align-items: center;
-    padding-left: 25px;
+    padding-right: 30px;
     border-bottom: 1px solid #536471;
 }
 
@@ -180,9 +181,6 @@ nav.menu1 {
     flex: 1;
     margin-left: 15px;
 }
-
-
-
 
 .footer-post {
     display: flex;
@@ -210,8 +208,6 @@ nav.menu1 {
 .footer-post button:hover {
     background: #c91f1f;
 }
-
-
 
 .post {
     display: flex;
@@ -320,10 +316,6 @@ nav.menu1 {
     height: auto;
 }
 
-.circulo-vermelho label {
-    cursor: pointer;
-    color: white;
-}
 
 #preview-imagem {
     display: none;
